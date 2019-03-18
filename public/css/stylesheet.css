@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: Raleway, monospace;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+
+header {
+    text-align: left;
+    height: 100px;
+    display: inline-flex;
+    border: 3px solid rgb(5, 5, 5);
+
+}
+
+header h1 {
+    height: 1em;
+    margin: .9em .5em 0 .5em;
+}
+
+#logo {
+    height: 100px;
+}
+
+main {
+    text-align: center;
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 20%;
+    border-top:5px solid rgb(240, 240, 240);
+    border-right: 5px solid rgb(5, 5, 5);
+    border-bottom:5px solid rgb(240, 240, 240);
+    border-left: 5px solid rgb(5, 5, 5);
+}
+
+form {
+    text-align: left;
+}
+
+fieldset {
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+input[type=number] {
+    font-family: monospace;
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+    width: 9em;
+}
+
+input[type=number]:hover {
+    font-family: monospace;
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
+}
+
+select {
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+select:hover {
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
+}
+
+#errors {
+    margin-top: 0;
+    list-style: none;
+}
+
+
+#submit {
+    font-family: Raleway, monospace;
+    font-weight: bold;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+#submit:hover {
+    font-family: Raleway, monospace;
+    font-weight: bold;
+    background-color: rgb(240, 240, 240);
+    color: rgb(5, 5, 5);
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
+}
+
+#results {
+    background-color: rgb(5, 5, 5);
+    color: rgb(240, 240, 240);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+}

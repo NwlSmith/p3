@@ -8,6 +8,6 @@ class InterestCalculatorController extends Controller
 {
     public function index()
     {
-        return 'p3 interestCalculatorController loaded successfully';
+        return view('index');
     }
 }
