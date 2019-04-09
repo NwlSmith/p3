@@ -8,14 +8,15 @@
 </head>
 <body>
 
-<header>
-    <a href='http://nwlsmith.com'><img src='http://nwlsmith.com/images/general/Nate-logo-200.png'
-                                       alt='Logo'
-                                       id='logo'></a>
-    <h1>Project 3</h1>
-</header>
+
 
 <section>
+    <header>
+        <a href='http://nwlsmith.com'><img src='http://nwlsmith.com/images/general/Nate-logo-200.png'
+                                           alt='Logo'
+                                           id='logo'></a>
+        <h1>Project 3</h1>
+    </header>
     @yield('content')
 </section>
 

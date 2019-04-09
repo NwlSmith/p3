@@ -10,6 +10,7 @@ header {
     height: 100px;
     display: inline-flex;
     border: 3px solid rgb(5, 5, 5);
+    margin-left: 20%;
 
 }
 
@@ -27,14 +28,17 @@ main {
     width: 60%;
     margin-top: 25px;
     margin-left: 20%;
-    border-top:5px solid rgb(240, 240, 240);
-    border-right: 5px solid rgb(5, 5, 5);
-    border-bottom:5px solid rgb(240, 240, 240);
-    border-left: 5px solid rgb(5, 5, 5);
+    border:0 solid rgb(240,240,240);
+}
+
+main h1 {
+    text-align: left;
 }
 
 form {
     text-align: left;
+    font-size: .9em;
+    display: contents;
 }
 
 fieldset {
@@ -46,58 +50,52 @@ fieldset {
 
 input[type=number] {
     font-family: monospace;
-    background-color: rgb(5, 5, 5);
-    color: rgb(240, 240, 240);
-    border-top:2px solid rgb(240, 240, 240);
-    border-right: 2px solid rgb(5, 5, 5);
-    border-bottom:2px solid rgb(240, 240, 240);
-    border-left: 2px solid rgb(5, 5, 5);
+    text-align: right;
+    background-color: rgb(240, 240, 240);
+    color: rgb(5, 5, 5);
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
     width: 9em;
 }
 
 input[type=number]:hover {
     font-family: monospace;
-    border-top:2px solid rgb(5, 5, 5);
-    border-right: 2px solid rgb(240, 240, 240);
-    border-bottom:2px solid rgb(5, 5, 5);
-    border-left: 2px solid rgb(240, 240, 240);
-}
-
-select {
-    background-color: rgb(5, 5, 5);
-    color: rgb(240, 240, 240);
+    background-color: rgb(200, 200, 200);
     border-top:2px solid rgb(240, 240, 240);
     border-right: 2px solid rgb(5, 5, 5);
     border-bottom:2px solid rgb(240, 240, 240);
     border-left: 2px solid rgb(5, 5, 5);
 }
 
-select:hover {
+select {
+    background-color: rgb(240, 240, 240) ;
+    color: rgb(5, 5, 5);
     border-top:2px solid rgb(5, 5, 5);
     border-right: 2px solid rgb(240, 240, 240);
     border-bottom:2px solid rgb(5, 5, 5);
     border-left: 2px solid rgb(240, 240, 240);
 }
 
-#errors {
-    margin-top: 0;
-    list-style: none;
+select:hover {
+    background-color: rgb(200, 200, 200);
+    border-top:2px solid rgb(240, 240, 240);
+    border-right: 2px solid rgb(5, 5, 5);
+    border-bottom:2px solid rgb(240, 240, 240);
+    border-left: 2px solid rgb(5, 5, 5);
+}
+
+.error {
+    color: red;
+}
+
+h3.error {
+    text-align: center;
 }
 
 
 #submit {
-    font-family: Raleway, monospace;
-    font-weight: bold;
-    width: 100%;
-    background-color: rgb(5, 5, 5);
-    color: rgb(240, 240, 240);
-    border-top:2px solid rgb(240, 240, 240);
-    border-right: 2px solid rgb(5, 5, 5);
-    border-bottom:2px solid rgb(240, 240, 240);
-    border-left: 2px solid rgb(5, 5, 5);
-}
-
-#submit:hover {
     font-family: Raleway, monospace;
     font-weight: bold;
     background-color: rgb(240, 240, 240);
@@ -108,11 +106,19 @@ select:hover {
     border-left: 2px solid rgb(240, 240, 240);
 }
 
+#submit:hover {
+    background-color: rgb(200, 200, 200);
+    border-top: 2px solid rgb(240, 240, 240);
+    border-right:2px solid rgb(5, 5, 5);
+    border-bottom: 2px solid rgb(240, 240, 240);
+    border-left:2px solid rgb(5, 5, 5);
+}
+
 #results {
-    background-color: rgb(5, 5, 5);
-    color: rgb(240, 240, 240);
-    border-top:2px solid rgb(240, 240, 240);
-    border-right: 2px solid rgb(5, 5, 5);
-    border-bottom:2px solid rgb(240, 240, 240);
-    border-left: 2px solid rgb(5, 5, 5);
+    background-color: rgb(240, 240, 240);
+    color: rgb(5, 5, 5);
+    border-top:2px solid rgb(5, 5, 5);
+    border-right: 2px solid rgb(240, 240, 240);
+    border-bottom:2px solid rgb(5, 5, 5);
+    border-left: 2px solid rgb(240, 240, 240);
 }

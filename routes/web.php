@@ -10,5 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/index', 'InterestCalculatorController@index');
+Route::get('/calculate', 'InterestCalculatorController@calculate');
 
-Route::get('/', 'InterestCalculatorController@index');
+
