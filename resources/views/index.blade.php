@@ -11,7 +11,7 @@
 @endsection
 
 @section('content')
-    <main>
+    <div id='main'>
         <h1>Interest Calculator</h1>
         <form method='GET' action='/calculate'>
             <p>Calculate the interest on a given payment<br></p>
@@ -31,18 +31,22 @@
                     <input type='number'
                            step='any'
                            name='percentInterest'
-                           @include('includes.oldNum', ['fieldName' => 'percentInterest'])>%
+                            @include('includes.oldNum', ['fieldName' => 'percentInterest'])>%
                 </label>
                 <label> per
                     <select name='interestFrequency'>
                         <option value='year'
-                            @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'year'])> year</option>
+                                @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'year'])> year
+                        </option>
                         <option value='half'
-                            @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'half'])> half-year</option>
+                                @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'half'])> half-year
+                        </option>
                         <option value='quarter'
-                            @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'quarter'])> quarter-year</option>
+                                @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'quarter'])> quarter-year
+                        </option>
                         <option value='month'
-                            @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'month'])> month</option>
+                                @include('includes.oldSelect', ['fieldName' => 'interestFrequency', 'fieldValue' => 'month'])> month
+                        </option>
                     </select>
                 </label>
                 @include('includes.error-field', ['fieldName' => 'percentInterest'])
@@ -132,5 +136,5 @@
 
         @endif
         <br>
-    </main>
+    </div>
 @endsection

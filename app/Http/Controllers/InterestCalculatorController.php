@@ -27,7 +27,7 @@ class InterestCalculatorController extends Controller
         $totalBool = $request->session()->get('totalBool', false);
         $total = $request->session()->get('total', '');
 
-        return view('index')->with([
+        return view('/index')->with([
             'initialAmount' => $initialAmount,
             'percentInterest' => $percentInterest,
             'interestFrequency' => $interestFrequency,
